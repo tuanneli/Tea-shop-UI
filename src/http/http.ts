@@ -1,8 +1,8 @@
 import axios from 'axios';
 import {IResponse} from "../types/authTypes";
 
-export const baseURL = 'http://localhost:5000';
-// export const baseURL = 'https://young-caverns-71226.herokuapp.com/'
+// export const baseURL = 'http://localhost:5000';
+export const baseURL = 'https://tea-shop-server.vercel.app'
 
 const $host = axios.create({
     withCredentials: true,
