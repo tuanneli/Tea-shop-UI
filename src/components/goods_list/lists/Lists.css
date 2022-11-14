@@ -1,0 +1,123 @@
+* {
+    user-select: none;
+}
+
+:root {
+    --active-part: #1a1d21;
+}
+
+.goods-container,
+.categories-container {
+    width: 100% !important;
+    background-color: #212529 !important;
+    padding: 5px !important;
+    border-radius: 0 !important;
+    height: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.goods-container {
+    min-height: 100vh !important;
+}
+
+.goods-label,
+.categories-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 5px;
+    color: white;
+    border: 1px solid white;
+    margin: 5px 0;
+}
+
+.goods-row,
+.category-goods-row {
+    width: 100%;
+    padding-left: 13px;
+    overflow: hidden;
+}
+
+.category-group-item,
+.goods-item {
+    border: 1px solid white;
+    padding: 8px 16px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.category-group-item {
+    background-color: var(--active-part) !important;
+    word-break: break-word !important;
+    border: 1px solid white !important;
+}
+
+.add-new-button {
+    background-color: var(--active-part);
+    border: 1px solid white;
+    width: 50%;
+    color: #0af500;
+    transition: .3s ease-out;
+}
+
+.change-button {
+    background-color: var(--active-part);
+    border: 1px solid white;
+    color: blue;
+    transition: .3s ease-out;
+}
+
+.remove-button {
+    background-color: var(--active-part);
+    border: 1px solid white;
+    color: red;
+    transition: .3s ease-out;
+}
+
+.category-group-item:hover {
+    background-color: white !important;
+    color: black !important;
+    transition: .3s ease-out !important;
+    border: 1px solid black !important;
+}
+
+.add-new-button:hover {
+    color: white;
+    background-color: #85c482;
+    transition: .3s ease-out;
+}
+
+.change-button:hover {
+    background-color: #8686cb;
+    color: white;
+    transition: .3s ease-out;
+}
+
+.remove-button:hover {
+    background-color: #be7e7e;
+    color: white;
+    transition: .3s ease-out;
+}
+
+.category-group-item:active {
+    background-color: #656565 !important;
+    color: black !important;
+}
+
+.add-new-button:active {
+    color: white;
+    background-color: #416040;
+    transition: .3s ease-out;
+}
+
+.change-button:active {
+    background-color: #3e3e5d;
+}
+
+.remove-button:active {
+    background-color: #563939;
+}
+
+

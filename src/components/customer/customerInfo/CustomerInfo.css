@@ -1,0 +1,40 @@
+.customer-info-container {
+    min-height: 100vh;
+    width: 100%;
+    padding: 5px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.customer-each-item-box-item {
+    padding: 3px 0;
+}
+
+.customer-general-info-box {
+    padding: 10px;
+}
+
+.customer-each-item-box {
+    padding: 10px;
+}
+
+.customer-info-item-price {
+    padding: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customer-info-name,
+.customer-info-price,
+.customer-info-action {
+    width: 33%;
+    margin-right: 5px;
+}
+
+.customer-info-price,
+.customer-info-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

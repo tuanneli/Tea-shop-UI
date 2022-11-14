@@ -1,0 +1,34 @@
+.navbar-item {
+    border-right: 1px solid white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item:hover {
+    background: linear-gradient(#131313, black, #131313);
+}
+
+.navbar-box {
+    height: 50px;
+}
+
+.link-style {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+.link-style:hover {
+    font-size: 16px;
+    color: gray !important;
+}
+
+.link-style:active {
+    background-color: black;
+    font-size: 16px;
+    color: white;
+}

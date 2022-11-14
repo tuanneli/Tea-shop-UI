@@ -1,0 +1,32 @@
+.login__form,
+.register__form {
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box {
+    width: 400px;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 15px;
+}
+
+.form-item-box {
+    height: 80px;
+}
+
+.box-label {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.submit-or-enter {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}

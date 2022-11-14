@@ -1,0 +1,21 @@
+.modal-header,
+.modal-body,
+.modal-footer {
+    color: white !important;
+    background-color: #212529 !important;
+    border: none !important;
+    padding-bottom: 15px !important;
+    margin: -1px !important;
+}
+
+.modal-input-field {
+    box-shadow: none !important;
+}
+
+/*style={{background: 'grey', padding: "3px", borderRadius: '5px', marginTop: '10px'}}>*/
+.add-menu-inAction-label {
+    background-color: gray;
+    padding: 3px;
+    border-radius: 5px;
+    margin-top: 10px;
+}

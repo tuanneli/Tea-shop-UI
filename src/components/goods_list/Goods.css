@@ -1,0 +1,12 @@
+.category-group-item {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.delete-button:hover {
+    background-color: gray;
+}
+
+.delete-button:active {
+    background-color: #4b4b4b;
+}
